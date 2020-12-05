@@ -1,0 +1,276 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>LouBui Portfolio Website</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/hover.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+
+<body>
+	<header>
+		<div class="container">
+				<div class="header-main">
+					<div class="logo">
+					<a href="index.html">Portfo<span>lio</span></a>
+					</div>
+					
+					<nav class="menu">
+						<ul id="thanh-dieu-huong">
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#services">Services</a></li>
+							<li><a href="#portfolio">Portfolio</a></li>
+							<li><a href="#contact">Contact</a></li>
+							<a href="#" onClick="tatMenu()" class="close">X</a>
+						</ul>
+						<a href="#" onClick="moMenu()"  class="nav-mobile">&#9776;</a>
+					</nav>
+				</div>
+			</div>
+<!--
+		<div class="menu-toggler">
+			<div class="bar hafl start">
+			<a href="#">Home</a>
+			</div>
+			<div class="bar"></div>
+			<div class="bar hafl end"></div>
+		</div>
+-->
+		
+<!--		Navigation Bar---------------------------------------------------------------->
+<!--
+		<nav class="top-nav">
+			<ui class="nav-list">
+				<li>
+					<a href="index.html" class="nav-link">Home</a>
+					<a href="#about" class="nav-link">About</a>
+					<a href="#services" class="nav-link">Services</a>
+					<a href="#portfolio" class="nav-link">Portfolio</a>
+					<a href="#contact" class="nav-link">Contact</a>
+				</li>
+			</ui>
+		</nav>
+-->
+		
+<!--		Landing Text-------------------------------------------------------------------->
+		<div class="landing-text">
+			<h1>Lou Bui</h1>
+			<h6>UI | UX Designer</h6>
+		</div>
+	</header>
+	
+<!--	About--------------------------------------------------------------------------------->
+	<section class="about" id="about">
+		<div class="container">
+			<div class="profile-img" data-aos="fade-right" data-aos-delay="600">
+				<img src="img/IMG_1626-draw.png" alt="">
+			</div>
+			<div class="about-details" data-aos="fade-left" data-aos-delay="300">
+				<div class="about-heading">
+					<h1>About</h1>
+					<h6>Myseft</h6>
+				</div>
+				<p>I am a multidisciplinary designer based in New York City. I do illustration, graphic design, animation, and front-end development. </p>
+				<br>
+				<p>If you have any question about design service, or just want to say hello, feel free to contact me. </p>
+				<div class="social-media">
+					<ul class="nav-list">
+						<li>
+							<a href="#" class="icon-link">
+								<i class="fab fa-facebook-square"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="icon-link">
+								<i class="fab fa-twitter-square"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="icon-link">
+								<i class="fab fa-instagram-square"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+<!--	Services--------------------------------------------------------------------------------->
+	<section class="services" id="services">
+		<div class="container">
+			<div class="section-heading">
+				<h1>Services</h1>
+				<h6>What I can do for you</h6>
+			</div>
+			<div class="my-skills" >
+<!--					1----->
+				<div class="skill" data-aos="fade-in" data-aos-delay="300">
+					<div class="icon-container">
+						<i class="fas fa-layer-group"></i>
+					</div>
+					<h1>Web Design</h1>
+					<p>
+						Controlling and understanding how to create the appropriate image while ensuring the website is easy to use and the information is easy to access.
+					</p>
+				</div>
+				
+<!--					2----->
+				<div class="skill" data-aos="fade-in" data-aos-delay="600">
+					<div class="icon-container">
+						<i class="fas fa-code"></i>
+					</div>
+					<h1>Web Development</h1>
+					<p>
+						Write code for the website, using programming languages such as HTML or XML.
+					</p>
+				</div>
+				
+<!--					3----->
+				<div class="skill" data-aos="fade-in" data-aos-delay="900">
+					<div class="icon-container">
+						<i class="fas fa-chart-bar"></i>
+					</div>
+					<h1>Product Strategy</h1>
+					<p>
+						Product strategy help you to align the organization around a shared vision and keep everyone focused on the work that matters the most.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+<!--	Portfolio------------------------------------------------------------------------------------>
+	<section class="portfolio" id="portfolio">
+		<div class="container">
+			<div class="section-heading">
+				<h1>Portfolio</h1>
+				<h6>View some of my recent work</h6>
+			</div>
+			
+<!--			1----->
+			<div class="portfolio-item">
+				<div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+					<img src="img/Online games addiction-amico.svg" alt="">
+				</div>
+				<div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
+					<h6>Web Development</h6>
+					<h1>Blog Website</h1>
+					<p>
+						If you plan to add advertising banners to your blog, then add them from the start
+					</p>
+					<a href="#" class="cta">View Details</a>
+				</div>
+			</div>
+			
+<!--			2----->
+			<div class="portfolio-item">
+				<div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
+					<h6>Web Design</h6>
+					<h1>Product Layout</h1>
+					<p>
+						To use the product layout, the total work to be performed must be dividable into small tasks that can be assigned to each of the workstations.
+					</p>
+					<a href="#" class="cta">View Details</a>
+				</div>
+				<div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
+					<img src="img/Social share-amico.svg" alt="">
+				</div>
+			</div>
+			
+<!--			3----->
+			<div class="portfolio-item">
+				<div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+					<img src="img/Design tools-rafiki.svg" alt="">
+				</div>
+				<div class="portfolio-description" data-aos="fade-left" data-aos-delay="1800">
+					<h6>Product Strategy</h6>
+					<h1>Product Sketch</h1>
+					<p>
+						The product strategy enables you to focus on a specific target market and feature set, instead of trying to be everything to everyone.
+					</p>
+					<a href="#" class="cta">View Details</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+<!--	Contact------------------------------------------------------------------------------------->
+	<section class="contact" id="contact">
+		<div class="container">
+			<div class="section-heading">
+				<h1>Contact</h1>
+				<h6>Let's work together</h6>
+			</div>
+			<form action="" data-aos="fade-up" data-aos-delay="300">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" placeholder="Enter your name..." required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" placeholder="Enter your email..." required>
+				<label for="service">Services:</label>
+				<select name="services" id="service">
+					<option value="">Web Design</option>
+					<option value="">Web Development</option>
+					<option value="">Web Design/Development</option>
+				</select>
+				<label for="subject">Subject:</label>
+				<textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+				<input type="submit" value="submit">
+			</form>
+		</div>
+	</section>
+	
+<!--	Footer------------------------------------------------------------------------------------------>
+	<footer class="copyright">
+
+<!--	Back to top button--------------------------------------------------------------------------->
+
+		<div onclick="topFunction()" class="up" id="up">
+			<i class="fas fa-chevron-up"></i>
+<!--			<i class="fas fa-chevron-circle-up"></i>-->
+		</div>
+		<p>&copy; 2020 Lou Bui</p>
+	</footer>
+	
+	<script>
+	//Get the button:
+mybutton = document.getElementById("up");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+	</script>
+	
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+	  AOS.init();
+	</script>
+	
+	<script>
+		function moMenu() {
+		  document.getElementById("thanh-dieu-huong").style.width = "100%";
+		}
+
+		function tatMenu() {
+		  document.getElementById("thanh-dieu-huong").style.width = "0%";
+		}
+	</script>
+</body>
+</html>
